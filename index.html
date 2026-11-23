@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisuda Angkatan 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <section class="opening-screen" id="opening">
+
+        <div class="opening-card">
+
+            <p class="opening-label">THE GRADUATION CEREMONY</p>
+
+            <div class="opening-line"></div>
+
+            <p class="opening-subtitle">UNDANGAN WISUDA</p>
+
+            <img src="wisuda.webp"
+                 alt="Wisuda Angkatan 2026"
+                 class="opening-image">
+
+            <h1>Class of <span>2026</span></h1>
+
+            <p class="opening-description">
+                Dengan penuh rasa syukur, kami mengundang Anda
+                untuk hadir dalam acara Wisuda Angkatan 2026.
+            </p>
+
+            <div class="opening-guest">
+                <p>Kepada Yth.</p>
+                <h2>Dinda Nurrahma, S.Pd.</h2>
+            </div>
+
+            <button onclick="bukaUndangan()" class="opening-button">
+                Buka Undangan <span>→</span>
+            </button>
+
+            <p class="opening-footer">
+                SMKN 6 TANGERANG SELATAN
+            </p>
+
+        </div>
+
+    </section>
+
+
+    
+    <div id="isiUndangan" hidden>
+
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <div class="logo">GRADUATION 2026</div>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#acara">Acara</a></li>
+                <li><a href="#rundown">Rundown</a></li>
+                <li><a href="#lokasi">Lokasi</a></li>
+            </ul>
+        </nav>
+
+       
+        <section class="hero" id="home">
+            <p class="subtitle">THE GRADUATION</p>
+
+            <img src="wisuda.webp"
+                 alt="Foto Wisuda Angkatan 2026"
+                 class="hero-img">
+
+            <h1>Class of 2026</h1>
+
+            <p>
+                Dengan penuh rasa syukur, kami mengundang Anda
+                untuk hadir dalam acara wisuda angkatan 2026.
+            </p>
+        </section>
+
+       
+        <section class="detail-acara" id="acara">
+            <p class="subtitle-section">INFORMASI UTAMA</p>
+            <h2>Detail Acara</h2>
+
+            <div class="container-acara">
+
+                <div class="card">
+                    <h3>Tanggal</h3>
+                    <p>Sabtu, 20 Juni 2026</p>
+                </div>
+
+                <div class="card">
+                    <h3>Waktu</h3>
+                    <p>08.00 WIB - Selesai</p>
+                </div>
+
+                <div class="card">
+                    <h3>Lokasi</h3>
+                    <p>SMKN 6 Tangerang Selatan</p>
+                </div>
+
+            </div>
+        </section>
+
+        
+        <section class="rundown-section" id="rundown">
+            <p class="subtitle-section">SUSUNAN KEGIATAN</p>
+            <h2>Rundown Acara</h2>
+
+            <p>
+                Merupakan suatu kehormatan bagi kami apabila
+                Bapak/Ibu Orang Tua/Wali Murid beserta Tamu
+                Undangan berkenan hadir.
+            </p>
+
+            <div class="rundown">
+                <ul>
+                    <li>
+                        <span class="jam">07.30 – 08.00 WIB</span>
+                        <span class="kegiatan">Registrasi Tamu & Siswa</span>
+                    </li>
+
+                    <li>
+                        <span class="jam">08.00 – 08.30 WIB</span>
+                        <span class="kegiatan">Pembukaan & Menyanyikan Lagu Indonesia Raya</span>
+                    </li>
+
+                    <li>
+                        <span class="jam">08.30 – 09.15 WIB</span>
+                        <span class="kegiatan">Sambutan Kepala Sekolah & Ketua Panitia</span>
+                    </li>
+
+                    <li>
+                        <span class="jam">09.15 – 10.45 WIB</span>
+                        <span class="kegiatan">Prosesi Pengalungan Medali & Penyerahan Kenang-kenangan</span>
+                    </li>
+
+                    <li>
+                        <span class="jam">10.45 – 11.30 WIB</span>
+                        <span class="kegiatan">Persembahan Siswa & Pembacaan Doa</span>
+                    </li>
+
+                    <li>
+                        <span class="jam">11.30 – 12.00 WIB</span>
+                        <span class="kegiatan">Penutup & Sesi Foto Bersama</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    
+        <section class="lokasi" id="lokasi">
+            <p class="subtitle-section">TEMUKAN LOKASI</p>
+            <h3>Lokasi Acara</h3>
+
+            <p>
+                <strong>Lapangan SMKN 6 Tangerang Selatan</strong>
+            </p>
+
+            <div class="map-wrapper">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0031130667126!2d106.6635015760382!3d-6.263318761320718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb06a47e36b7%3A0x93b22c3ee1f216b1!2sSMKN%206%20Tangerang%20Selatan!5e0!3m2!1sid!2sid!4v1795401664695!5m2!1sid!2sid"
+                    width="600"
+                    height="350"
+                    style="border:0;"
+                    allowfullscreen
+                    loading="lazy"
+                    title="Peta Lokasi SMKN 6 Tangerang Selatan">
+                </iframe>
+            </div>
+
+            <a href="https://maps.google.com/?q=SMKN+6+Tangerang+Selatan"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn-maps">
+                Lihat Rute di Google Maps
+            </a>
+        </section>
+        </section>
+
+        <section class="rsvp-section" id="rsvp">
+
+            <div class="rsvp-container">
+
+                <p class="subtitle-section">
+                    KONFIRMASI KEHADIRAN
+                </p>
+
+                <h2>Apakah Anda Akan Hadir?</h2>
+
+                <p class="rsvp-description">
+                    Kehadiran Anda merupakan kebahagiaan bagi kami.
+                    Silakan isi formulir konfirmasi berikut.
+                </p>
+
+                <form id="formRSVP">
+
+                    <div class="form-group">
+                        <label for="nama">Nama Lengkap</label>
+                        <input
+                            type="text"
+                            id="nama"
+                            placeholder="Masukkan nama lengkap"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="kehadiran">
+                            Konfirmasi Kehadiran
+                        </label>
+
+                        <select id="kehadiran" required>
+                            <option value="">Pilih konfirmasi</option>
+                            <option value="Hadir">Hadir</option>
+                            <option value="Tidak Hadir">Tidak Hadir</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="jumlah">Jumlah Orang</label>
+                        <input
+                            type="number"
+                            id="jumlah"
+                            min="1"
+                            max="10"
+                            value="1"
+                            required>
+                    </div>
+
+                    <button type="submit" class="rsvp-button">
+                        Kirim Konfirmasi
+                    </button>
+
+                </form>
+
+                <p id="pesanRSVP"></p>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <p>
+                Panitia Pelepasan Siswa Angkatan 2026
+                • SMKN 6 Tangerang Selatan
+            </p>
+        </footer>
+
+        <footer>
+            <p>
+                Panitia Pelepasan Siswa Angkatan 2026
+                • SMKN 6 Tangerang Selatan
+            </p>
+        </footer>
+
+    </div>
+    </div>
+
+   
+    <audio id="musik" loop>
+        <source src="musik.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="tombolMusik" onclick="toggleMusik()">
+        ♫ Musik: ON
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+   
